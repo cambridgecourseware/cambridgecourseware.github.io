@@ -6,36 +6,13 @@
   <link rel="shortcut icon" type="image/png" href="favicon.png">
   <title>Javascript Exercise</title>
 
-  <script src="jsjs.min.js"></script>
-
   <link rel="stylesheet" href="jsjs.min.css">
+
+  <script src="jsjs.min.js"></script>
 </head>
 <body>
-  <div id="jsjs">
-    <div id="edit">
-      <div class="tool-bar">
-        Edit:
-        <div class="tool-button tool-disabled" id="undo">undo</div>
-        <div class="tool-button tool-disabled" id="redo">redo</div>
-        <div class="editor-help">editor help</div>
-      </div>
-      <textarea id="editor"></textarea>
-    </div>
-    <div id="execute">
-      <div class="tool-bar">Execute:
-        <div class="tool-button tool-enabled" id="reset">reset</div>
-        <div class="tool-button tool-enabled" id="run">run</div>
-        <div class="tool-button tool-enabled" id="step">step</div>
-        <div class="tool-button tool-disabled" id="pause">pause</div>
-        <div class="status-wrapper"><span id="status"><span></div>
-      </div>
-      <div id="output">
-        <div id="console"></div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="initial-code">// draw a square
+  <div id="jsjs"><![CDATA[
+// draw a square
 pen('red');
     
 function step() {
@@ -47,51 +24,6 @@ step();
 step();
 step();
 step();
-</div>
-
-  <div class="editor-help-content">
-    <table id="editor-key-bindings" border=1 cellpadding=3>
-      <tr><th colspan="3">Editor Key Bindings</th></tr>
-      <tr><th>Move</th><th>PC keystroke</th><th>Mac keystroke</th></tr>
-      <tr><td>Left one character</td><td>Left</td><td>Left</td></tr>
-      <tr><td>Right one character</td><td>Right</td><td>Right</td></tr>
-      <tr><td>Up one line</td><td>Up</td><td>Up</td></tr>
-      <tr><td>Down one line</td><td>Down</td><td>Down</td></tr>
-      <tr><td>Beginning of line</td><td>Home, Alt-Left</td><td>Home, Cmd-Left</td></tr>
-      <tr><td>End of line</td><td>End, Alt-Right</td><td>End, Cmd-Right</td></tr>
-      <tr><td>Up one page</td><td>Page up</td><td>Page up</td></tr>
-      <tr><td>Down one page</td><td>Page down</td><td>Page down</td></tr>
-      <tr><td>Beginning of document</td><td>Ctrl-Home, Alt-Up</td><td>Cmd-Up</td></tr>
-      <tr><td>End of document</td><td>Ctrl-End, Ctrl-Down</td><td>Cmd-End, Cmd-Down</td></tr>
-      <tr><td>Left one group</td><td>Ctrl-Left</td><td>Alt-Left</td></tr>
-      <tr><td>Right one group</td><td>Ctrl-Right</td><td>Alt-Right</td></tr>
-
-      <tr><th colspan="3">Selection and delete</th></tr>
-      <tr><td>Select all</td><td>Ctrl-A</td><td>Cmd-A</td></tr>
-      <tr><td>Cut selection to clipboard</td><td>Ctrl-X</td><td>Cmd-X</td></tr>
-      <tr><td>Copy selection to clipboard</td><td>Ctrl-C</td><td>Cmd-C</td></tr>
-      <tr><td>Paste from clipboard</td><td>Ctrl-V</td><td>Cmd-V</td></tr>
-      <tr><td>Delete character before cursor</td><td>Backspace</td><td>Backspace</td></tr>
-      <tr><td>Delete character after cursor</td><td>Delete</td><td>Delete</td></tr>
-      <tr><td>Delete group before cursor</td><td>Ctrl-Backspace</td><td>Alt-Backspace</td></tr>
-      <tr><td>Delete group after cursor</td><td>Ctrl-Delete</td><td>Alt-Delete, Ctrl-Alt-Backspace</td></tr>
-      <tr><td>Delete line</td><td>Ctrl-D</td><td>Cmd-D</td></tr>
-
-      <tr><th colspan="3">Search and replace</th></tr>
-      <tr><td>Find</td><td>Ctrl-F</td><td>Cmd-F</td></tr>
-      <tr><td>Find next</td><td>Ctrl-G</td><td>Cmd-G</td></tr>
-      <tr><td>Find previous</td><td>Shift-Ctrl-G</td><td>Shift-Cmd-G</td></tr>
-      <tr><td>Replace</td><td>Shift-Ctrl-F</td><td>Cmd-Alt-F</td></tr>
-      <tr><td>Replace all</td><td>Shift-Ctrl-R</td><td>Shift-Cmd-Alt-F</td></tr>
-
-      <tr><th colspan="3">Miscellaneous</th></tr>
-      <tr><td>Undo</td><td>Ctrl-Z</td><td>Cmd-Z</td></tr>
-      <tr><td>Redo</td><td>Ctrl-Y, Shift-Ctrl-Z</td><td>Cmd-Y, Shift-Cmd-Z</td></tr>
-      <tr><td>Indent more</td><td>Ctrl-]</td><td>Cmd-]</td></tr>
-      <tr><td>Indent less</td><td>Ctrl-[</td><td>Cmd-[</td></tr>
-      <tr><td>Toggle overwrite</td><td>Insert</td><td>Insert</td></tr>
-    </table>
-  </div>
-
+]]></div>
   </body>
 </html>

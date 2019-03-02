@@ -2558,6 +2558,7 @@ z-index: 6;
 .tool-button {
     display: inline;
     padding: 1px 4px 2px 4px;
+    margin-left: 1em;
     border: 1px solid #888;
     vertical-align: top;
     font: small-caps medium sans-serif;
